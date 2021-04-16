@@ -15,10 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from blog.views import post_list
+from blog.views import post_list, PostListView
 
 urlpatterns = [
-    path('', post_list, name="index"),
+    # path('', post_list, name="index"),
+    path('', PostListView.as_view(), name="index"),
     path('admin/', admin.site.urls),
     path('blog/', include('blog.urls', namespace='blog'))
 
