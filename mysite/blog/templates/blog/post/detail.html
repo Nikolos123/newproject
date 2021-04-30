@@ -18,7 +18,7 @@
         {% for similar in similar_posts %}
 
             <p>
-                <a href="{{ similar.get_absolute }}" > {{ similar.title }}</a>
+                <a href="{{ similar.get_absolute_url }}" > {{ similar.title }}</a>
             </p>
 
         {% empty %}

@@ -91,7 +91,7 @@ def post_share(request, post_id):
         if form.is_valid():
             cd = form.cleaned_data
             # Отправка почты
-            post_url = request.build_absolute_uri(post.get_absolute())
+            post_url = request.build_absolute_uri(post.get_absolute_url())
             subject = f'{cd["name"], settings.EMAIL_HOST_USER, post.title}'
             message = f'"Read"  {post.title} \n {post_url}  \n  {cd["name"]} \n {cd["comment"]} , "comments"'
             send_mail(subject, message, settings.EMAIL_HOST_USER, [cd["to"]], fail_silently=False)
