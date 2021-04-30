@@ -1,0 +1,257 @@
+[
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "blog",
+      "model": "post"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "blog",
+      "model": "comment"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "taggit",
+      "model": "tag"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+      "app_label": "taggit",
+      "model": "taggeditem"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "46dw3mw40ut1pfmx8whri5iyau4bhiy6",
+    "fields": {
+      "session_data": "MGUwZmEzYzEwZDJjMWM5YzgyZGYwYmMzNzI2YWFlN2YyOTljMGI2Mjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4MjNlNWU2OGEyMjEwNmVmYmRlZTY2N2JlYzRiNzVmMmZkNDJjMTZmIn0=",
+      "expire_date": "2021-05-10T13:57:56.445Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "5qsbi2s6gnji7q10wf7asqfyfiiw93q6",
+    "fields": {
+      "session_data": "MGUwZmEzYzEwZDJjMWM5YzgyZGYwYmMzNzI2YWFlN2YyOTljMGI2Mjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4MjNlNWU2OGEyMjEwNmVmYmRlZTY2N2JlYzRiNzVmMmZkNDJjMTZmIn0=",
+      "expire_date": "2021-05-11T12:38:55.227Z"
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 1,
+    "fields": {
+      "post": 5,
+      "name": "\u041d\u0438\u043a\u043e\u043b\u0430\u0439 \u041d\u0430\u0433\u043e\u0440\u043d\u044b\u0439",
+      "email": "isp06@mail.ru",
+      "body": "asdasd",
+      "created": "2021-04-26T12:22:21.676Z",
+      "update": "2021-04-26T12:22:21.676Z",
+      "active": true
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 2,
+    "fields": {
+      "post": 5,
+      "name": "\u041d\u0438\u043a\u043e\u043b\u0430\u0439 \u041d\u0430\u0433\u043e\u0440\u043d\u044b\u0439",
+      "email": "isp06@mail.ru",
+      "body": "asdasd",
+      "created": "2021-04-26T12:22:28.251Z",
+      "update": "2021-04-26T12:22:28.251Z",
+      "active": true
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 3,
+    "fields": {
+      "post": 5,
+      "name": "\u041d\u0438\u043a\u043e\u043b\u0430\u0439 \u041d\u0430\u0433\u043e\u0440\u043d\u044b\u0439",
+      "email": "isp06@mail.ru",
+      "body": "ddqq",
+      "created": "2021-04-26T12:22:49.113Z",
+      "update": "2021-04-26T12:28:49.429Z",
+      "active": false
+    }
+  },
+  {
+    "model": "taggit.tag",
+    "pk": 1,
+    "fields": {
+      "name": "test",
+      "slug": "test"
+    }
+  },
+  {
+    "model": "taggit.tag",
+    "pk": 2,
+    "fields": {
+      "name": "django",
+      "slug": "django"
+    }
+  },
+  {
+    "model": "taggit.tag",
+    "pk": 3,
+    "fields": {
+      "name": "music",
+      "slug": "music"
+    }
+  },
+  {
+    "model": "taggit.tag",
+    "pk": 4,
+    "fields": {
+      "name": "jazz",
+      "slug": "jazz"
+    }
+  },
+  {
+    "model": "taggit.tag",
+    "pk": 5,
+    "fields": {
+      "name": "self",
+      "slug": "self"
+    }
+  },
+  {
+    "model": "taggit.taggeditem",
+    "pk": 1,
+    "fields": {
+      "tag": 1,
+      "content_type": 9,
+      "object_id": 1
+    }
+  },
+  {
+    "model": "taggit.taggeditem",
+    "pk": 2,
+    "fields": {
+      "tag": 2,
+      "content_type": 7,
+      "object_id": 5
+    }
+  },
+  {
+    "model": "taggit.taggeditem",
+    "pk": 3,
+    "fields": {
+      "tag": 3,
+      "content_type": 7,
+      "object_id": 5
+    }
+  },
+  {
+    "model": "taggit.taggeditem",
+    "pk": 4,
+    "fields": {
+      "tag": 4,
+      "content_type": 7,
+      "object_id": 5
+    }
+  },
+  {
+    "model": "taggit.taggeditem",
+    "pk": 5,
+    "fields": {
+      "tag": 2,
+      "content_type": 7,
+      "object_id": 6
+    }
+  },
+  {
+    "model": "taggit.taggeditem",
+    "pk": 6,
+    "fields": {
+      "tag": 3,
+      "content_type": 7,
+      "object_id": 6
+    }
+  },
+  {
+    "model": "taggit.taggeditem",
+    "pk": 7,
+    "fields": {
+      "tag": 4,
+      "content_type": 7,
+      "object_id": 6
+    }
+  },
+  {
+    "model": "taggit.taggeditem",
+    "pk": 8,
+    "fields": {
+      "tag": 2,
+      "content_type": 7,
+      "object_id": 8
+    }
+  },
+  {
+    "model": "taggit.taggeditem",
+    "pk": 9,
+    "fields": {
+      "tag": 5,
+      "content_type": 7,
+      "object_id": 9
+    }
+  }

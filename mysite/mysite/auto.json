@@ -1,0 +1,7 @@
+{
+  "EMAIL_HOST" : "smtp.yandex.com",
+  "EMAIL_HOST_USER" : "metalsochi@yandex.ru",
+  "EMAIL_HOST_PASSWORD": "Isponec111",
+  "EMAIL_PORT" : 587,
+  "EMAIL_USE_TLS" : true
+}

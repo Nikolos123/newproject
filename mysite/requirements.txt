@@ -1,0 +1,10 @@
+appdirs==1.4.4
+distlib==0.3.1
+Django==2.2.19
+django-taggit==1.4.0
+filelock==3.0.12
+Markdown==2.6.11
+pytz==2021.1
+six==1.15.0
+sqlparse==0.4.1
+virtualenv==20.4.3
